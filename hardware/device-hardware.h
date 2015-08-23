@@ -19,6 +19,6 @@
 
 void hwInitPins(void);
 void hwInitCriticalPeripherals(void);
-void hwInitPeripherals(enum devType_e type);
-void hwInitDeviceDrivers(enum devType_e type);
+void hwInitPeripherals(void);
+void hwInitDeviceDrivers(void);
 
