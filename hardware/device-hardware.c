@@ -92,7 +92,7 @@ void hwInitCriticalPeripherals(void)
 /*! Initialize general AVR peripherals
  *
  */
-void hwInitPeripherals(enum devType_e type)
+void hwInitPeripherals(void)
 {
     
 }
@@ -100,7 +100,7 @@ void hwInitPeripherals(enum devType_e type)
 /*! Initialize device drivers for hardware external to AVR
  *
  */
-void hwInitDeviceDrivers(enum devType_e type)
+void hwInitDeviceDrivers(void)
 {
     
 }
